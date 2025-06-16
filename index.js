@@ -12,7 +12,6 @@ for (let item of data) {
     list.appendChild(node);
 }
 
-// Update to reset display: none
 function search(event) {
     event.preventDefault();
     const searchTerm = document.getElementById("search").value;
@@ -22,6 +21,8 @@ function search(event) {
         const html = link.getHTML().toLowerCase();
         if (!html.includes(searchTerm)) {
             link.style.display = "none";
+        } else {
+            link.style.display = "list-item";
         }
     }
 }
