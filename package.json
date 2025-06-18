@@ -5,10 +5,11 @@
     "description": "My repository of links and bookmarks",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "dev": "node --watch server.js"
     },
     "repository": {
-    "type": "git",
+        "type": "git",
         "url": "git+https://github.com/ZaphodAndo/link-lounge.git"
     },
     "author": "Ethan Anderson",
@@ -16,5 +17,9 @@
     "bugs": {
         "url": "https://github.com/ZaphodAndo/link-lounge/issues"
     },
-    "homepage": "https://github.com/ZaphodAndo/link-lounge#readme"
+    "homepage": "https://github.com/ZaphodAndo/link-lounge#readme",
+    "dependencies": {
+        "@hono/node-server": "^1.14.4",
+        "hono": "^4.8.0"
+    }
 }

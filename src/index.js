@@ -6,6 +6,7 @@ export const html = `
         <head>
             <meta charset="UTF-8">
             <title>Link Lounge</title>
+            <link rel="manifest" href="/manifest.json">
         </head>
         <body>
             <h1>Link Lounge</h1>

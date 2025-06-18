@@ -1,0 +1,19 @@
+{
+    "name": "Link Lounge",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/static/logo-48.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/static/logo-96.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/static/logo-256.png",
+            "sizes": "256x256"
+        }
+    ]
+}

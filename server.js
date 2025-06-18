@@ -1,44 +1,21 @@
-import { createServer } from "node:http";
+import { Hono } from "hono";
+import { serve } from "@hono/node-server";
+import { serveStatic } from "@hono/node-server/serve-static";
 import { html } from "./src/index.js";
 
-const PORT = 3000;
+const app = new Hono();
 
-const server = createServer((req, res) => {
-    const url = req.url;
-    const method = req.method;
+// Serve static files
+app.use("/static/*", serveStatic({ root: "./" }));
+app.use("/manifest.json", serveStatic({ path: "./manifest.json" }));
 
-    res.setHeader("Content-Type", "text/html; charset=utf-8");
-    console.log(`${method} ${url}`);
-
-    if (url === "/") {
-        res.statusCode = 200;
-        res.end(html);
-    } else {
-        res.statusCode = 404;
-        res.end(`
-            <!DOCTYPE html>
-            <html lang="en">
-            <head>
-                <title>404 - Not Found</title>
-            </head>
-            <body>
-                <h1>404 - Page Not Found</h1>
-                <p>The page you're looking for doesn't exist.</p>
-                <p><a href="/">← Back to Home</a></p>
-            </body>
-            </html>
-        `);
-    }
+// Main route
+app.get("/", (c) => {
+    return c.html(html);
 });
 
-server.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}/`);
-});
+const port = process.env.PORT || 3000;
 
-process.on('SIGINT', () => {
-    console.log("\nShutting down server...");
-    server.close(() => {
-        console.log("Server stopped.");
-        process.exit(0);
-    });
-});
+serve({ fetch: app.fetch, port: port }, () =>
+    console.log(`Server running on http://localhost:${port}`)
+);
