@@ -7,3 +7,4 @@ My repository of links and bookmarks
 - Make it installable
 - Make it offline-capable so it works even if the webserver isn't running
 - Style it
+- Tag based search and filtering

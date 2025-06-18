@@ -1,4 +1,4 @@
-[
+export const data = [
     {
         "title": "The 12-bit rainbow palette",
         "url": "https://iamkate.com/data/12-bit-rainbow/",
@@ -29,4 +29,4 @@
         "note": "This would be cool to implement myself.",
         "tags": ["CSS", "JS", "Guide"]
     }
-]
+];

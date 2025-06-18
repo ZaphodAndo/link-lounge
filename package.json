@@ -1,0 +1,20 @@
+{
+    "name": "link-lounge",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "My repository of links and bookmarks",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+    "type": "git",
+        "url": "git+https://github.com/ZaphodAndo/link-lounge.git"
+    },
+    "author": "Ethan Anderson",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ZaphodAndo/link-lounge/issues"
+    },
+    "homepage": "https://github.com/ZaphodAndo/link-lounge#readme"
+}
