@@ -1,4 +1,4 @@
-export const data = [
+[
     {
         "title": "The 12-bit rainbow palette",
         "url": "https://iamkate.com/data/12-bit-rainbow/",
@@ -28,5 +28,17 @@ export const data = [
         "url": "https://css-irl.info/creating-css-variables-from-a-js-file/",
         "note": "This would be cool to implement myself.",
         "tags": ["CSS", "JS", "Guide"]
+    },
+    {
+        "title": "CSS Colour Functions | CSS-Tricks",
+        "url": "https://css-tricks.com/css-color-functions/",
+        "note": "A really good guide and walkthrough different CSS colour functions.",
+        "tags": ["CSS", "Guide", "Colour"]
+    },
+    {
+        "title": "Get out of my head",
+        "url": "https://getoutofmyhead.dev/",
+        "note": "This site has a bunch of guides on what to both include and not include in your sites <head>",
+        "tags": ["HTML", "Guide"]
     }
-];
+]

@@ -1,12 +1,11 @@
-import { generateBookmark } from "./functions/generateBookmark.js";
+import { generateBookmarks } from "./functions/generateBookmarks.js";
 
-export const html = `
+export const content = `
     <!DOCTYPE html>
     <html lang="en">
         <head>
             <meta charset="UTF-8">
             <title>Link Lounge</title>
-            <link rel="manifest" href="/manifest.json">
         </head>
         <body>
             <h1>Link Lounge</h1>
@@ -19,7 +18,7 @@ export const html = `
                     </form>
                 </search>
                 <ul id="list">
-                    ${generateBookmark()}
+                    ${generateBookmarks()}
                 </ul>
             </main>
             <footer>Made by Ethan 🦀</footer>

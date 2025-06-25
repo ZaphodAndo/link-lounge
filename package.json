@@ -3,10 +3,9 @@
     "version": "1.0.0",
     "type": "module",
     "description": "My repository of links and bookmarks",
-    "main": "server.js",
+    "main": "index.js",
     "scripts": {
-        "start": "node server.js",
-        "dev": "node --watch server.js"
+        "build": "node index.js"
     },
     "repository": {
         "type": "git",
@@ -17,9 +16,5 @@
     "bugs": {
         "url": "https://github.com/ZaphodAndo/link-lounge/issues"
     },
-    "homepage": "https://github.com/ZaphodAndo/link-lounge#readme",
-    "dependencies": {
-        "@hono/node-server": "^1.14.4",
-        "hono": "^4.8.0"
-    }
+    "homepage": "https://github.com/ZaphodAndo/link-lounge#readme"
 }

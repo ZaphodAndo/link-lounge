@@ -1,6 +1,9 @@
-import { data } from "../data.js";
+import { readFile } from "node:fs/promises";
 
-export function generateBookmark() {
+let data = await readFile(`./data.json`, "utf8");
+data = JSON.parse(data).reverse();
+
+export function generateBookmarks() {
     let list = "";
 
     for (let item of data) {
