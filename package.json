@@ -5,7 +5,8 @@
     "description": "My repository of links and bookmarks",
     "main": "index.js",
     "scripts": {
-        "build": "node index.js"
+        "build": "node index.js",
+        "update-data": "node update.js"
     },
     "repository": {
         "type": "git",

@@ -6,5 +6,5 @@ My repository of links and bookmarks
 - Style it
 - Tag-based search and filtering
 - Add date/time to data
-- Add cli tool to easily update data
 - Update README with setup and usage docs
+- Add JSDOC

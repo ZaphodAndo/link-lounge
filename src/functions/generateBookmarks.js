@@ -1,12 +1,10 @@
-import { readFile } from "node:fs/promises";
+import { getData } from "./getData.js";
 
-let data = await readFile(`./data.json`, "utf8");
-data = JSON.parse(data).reverse();
-
-export function generateBookmarks() {
+export async function generateBookmarks() {
+    let data = await getData();
     let list = "";
 
-    for (let item of data) {
+    for (let item of data.reverse()) {
         const li = `
             <li>            
                 <h2>${item.title}</h2>

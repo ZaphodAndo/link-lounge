@@ -18,7 +18,7 @@ export const content = `
                     </form>
                 </search>
                 <ul id="list">
-                    ${generateBookmarks()}
+                    ${await generateBookmarks()}
                 </ul>
             </main>
             <footer>Made by Ethan 🦀</footer>
