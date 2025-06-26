@@ -38,7 +38,85 @@
     {
         "title": "Get out of my head",
         "url": "https://getoutofmyhead.dev/",
-        "note": "This site has a bunch of guides on what to both include and not include in your sites <head>",
+        "note": "This site has a bunch of guides on what to both include and not include in your sites head.",
         "tags": ["HTML", "Guide"]
+    },
+    {
+        "title": "Fluid Type Scale Calculator",
+        "url": "https://www.fluid-type-scale.com/",
+        "note": "A generator for creating fluid font-size CSS.",
+        "tags": ["CSS", "Guide", "Font"]
+    },
+    {
+        "title": "Comprehensive guide to JavaScript performance analysis using Chrome DevTools",
+        "url": "https://blog.jiayihu.net/comprenhensive-guide-chrome-performance/",
+        "note": "A guide to performance testing JS with Chrome devtools.",
+        "tags": ["JS", "Guide", "Performance", "Chrome"]
+    },
+    {
+        "title": "How to Favicon in 2025: Three files that fit most needs",
+        "url": "https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs",
+        "note": "Read this when sorting out favicons.",
+        "tags": ["HTML", "Image"]
+    },
+    {
+        "title": "Easing Wizard",
+        "url": "https://easingwizard.com/",
+        "note": "A great CSS animation easing function generator.",
+        "tags": ["CSS", "Animation"]
+    },
+    {
+        "title": "My network home setup v4",
+        "url": "https://giuliomagnifico.blog/post/2023-01-05-home-network_v4/",
+        "note": "A big nerd off on home networking 😄",
+        "tags": ["Networking"]
+    },
+    {
+        "title": "Style your RSS feed",
+        "url": "https://darekkay.com/blog/rss-styling/",
+        "note": "How to style your RSS feed.",
+        "tags": ["RSS", "CSS"]
+    },
+    {
+        "title": "The HTML Review",
+        "url": "https://thehtml.review/",
+        "note": "This is the sort of thing the web was made for.",
+        "tags": ["HTML", "Web"]
+    },
+    {
+        "title": "Controlling the Taylor Swift Eras Tour wristbands with Flipper Zero",
+        "url": "https://blog.jgc.org/2024/05/controlling-taylor-swift-eras-tour.html",
+        "note": "Nice little breakdown on how this works.",
+        "tags": ["Embedded", "Hardware"]
+    },
+    {
+        "title": "How I Built an NFC Movie Library for my Kids",
+        "url": "https://simplyexplained.com/blog/how-i-built-an-nfc-movie-library-for-my-kids/",
+        "note": "Very fun, or you could just buy physical media 😅",
+        "tags": ["Hardware"]
+    },
+    {
+        "title": "An Abridged History of Safari Showstoppers",
+        "url": "https://webventures.rejh.nl/blog/2024/history-of-safari-show-stoppers/",
+        "note": "Safari sucks nuff said.",
+        "tags": ["Safari", "Bugs", "Web"]
+    },
+    {
+        "title": "Smuggling arbitrary data through an emoji",
+        "url": "https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/",
+        "note": "This could be pretty fun.",
+        "tags": ["Emoji"]
+    },
+    {
+        "title": "Good vs Great Animations",
+        "url": "https://emilkowal.ski/ui/good-vs-great-animations",
+        "note": "A great little guide on what makes a good animation.",
+        "tags": ["CSS", "Animation", "Guide"]
+    },
+    {
+        "title": "Truth, Lies and Progress Bars",
+        "url": "https://cloudfour.com/thinks/truth-lies-and-progress-bars/",
+        "note": "The truth around progress bars.",
+        "tags": ["UI/UX"]
     }
 ]
