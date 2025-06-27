@@ -13,6 +13,5 @@ Use `npm run build` to generate the static site.
 
 ## To Do
 
-- Style it
 - Tag-based search and filtering
 - Fix issue with dist folder not being created on first run
