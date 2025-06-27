@@ -20,7 +20,8 @@ const newLink = {
     title: title,
     url: url,
     note: note,
-    tags: tags.split(",")
+    tags: tags.split(","),
+    createdAt: new Date().toISOString()
 }
 
 const data = await getData();
